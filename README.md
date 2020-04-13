@@ -4,7 +4,7 @@
 ## 安装
 
 ```
-npm install @h2/font-laoder
+npm install font-loader-observer
 ```
 
 ## 使用
@@ -20,7 +20,7 @@ npm install @h2/font-laoder
     - `referText`: 检测字体加载状态所用的字符串。默认是 "!\"\\#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 
 ```js
-import {isSupportFontDisplay, watchFontLoaded} from '@h2/font-loader'
+import {isSupportFontDisplay, watchFontLoaded} from 'font-loader-observer'
 
 if (!isSupportFontDisplay()) {
     document.body.classList.add('font_loading');
@@ -39,4 +39,4 @@ if (!isSupportFontDisplay()) {
 ## [示例](./demo)
 
 
-[github](https://github.com/xzhyj93/font-loader)
+[github](https://github.com/xzhyj93/font-loader-observer)
