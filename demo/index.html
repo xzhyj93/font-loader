@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: test-font;
+            src: url(./test.TTF);
+        }
+        p {
+            font-family: test-font;
+            font-display: fallback;
+        }
+
+        body.font_loading p {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        测试一下字体字体
+        <p>
+            测试一下字体字体
+        </p><p>
+            测试一下字体字体
+        </p><p>
+            测试一下字体字体
+        </p><p>
+            测试一下字体字体
+        </p><p>
+            测试一下字体字体
+        </p><p>
+            测试一下字体字体
+        </p>
+    </p>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
