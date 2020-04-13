@@ -1,6 +1,6 @@
 {
   "name": "font-loader-observer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detect font download status and corresponding hooks",
   "main": "lib/index.js",
   "scripts": {
