@@ -39,4 +39,5 @@ if (!isSupportFontDisplay()) {
 ## [示例](./demo)
 
 
-[github](https://github.com/xzhyj93/font-loader-observer)
+[github](https://github.com/xzhyj93/font-loader-observer) | 
+[npm](https://www.npmjs.com/package/font-loader-observer)
