@@ -15,7 +15,7 @@ npm install font-loader-observer
  - `options`: 可选项，支持参数：
     - `callback`: 字体加载完成的回调函数
     - `failed`: 字体加载失败的回调函数
-    - `timeout`: 字体加载超时时间
+    - `timeout`: 字体加载超时时间，单位秒。默认3000
     - `defaultFont`: 字体加载完成之前的默认字体
     - `referText`: 检测字体加载状态所用的字符串。默认是 "!\"\\#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 
@@ -36,8 +36,8 @@ if (!isSupportFontDisplay()) {
     console.log('This environment supports the font-display property, and font-display can be used to set the font loading behavior directly')
 }
 ```
-## [示例](./demo)
-
+[示例](./demo)
 
 [github](https://github.com/xzhyj93/font-loader-observer) | 
-[npm](https://www.npmjs.com/package/font-loader-observer)
+[npm](https://www.npmjs.com/package/font-loader-observer) |
+[掘金：原理介绍](https://juejin.im/post/5e93155c6fb9a03c546c38cd)

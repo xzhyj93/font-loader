@@ -8,6 +8,9 @@ if (!isSupportFontDisplay()) {
             console.log('字体加载完成。Font loaded')
             document.body.classList.remove('font_loading');
         },
+        failed: function() {
+            console.log('字体加载失败。Font load failed')
+        },
         defaultFont: 'sans-serif',
     })
 } else {
